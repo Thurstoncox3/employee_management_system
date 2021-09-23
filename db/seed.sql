@@ -1,14 +1,14 @@
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ('Thurston','Cox', 1, NULL),
-       ('Adam','Miller', 2, NULL),
-       ('Sara','Adams', 3, NULL),
-       ('Taylor','Burke', 4, NULL),
-       ('Josh','Williams', 5, NULL),
-       ('Derrick','Yellock', 6,NULL),
-       ('Oliver','Keyes', 7, NULL),
-       ('Kennedy','Morehead', 8, NULL),
-       ('Rhonda','Roads', 9,NULL),
-       ('Joel','Green', 10,NULL);
+VALUES ('Thurston','Cox'),
+       ('Adam','Miller'),
+       ('Sara','Adams'),
+       ('Taylor','Burke'),
+       ('Josh','Williams'),
+       ('Derrick','Yellock'),
+       ('Oliver','Keyes'),
+       ('Kennedy','Morehead'),
+       ('Rhonda','Roads'),
+       ('Joel','Green');
 
 INSERT INTO role (title, salary, department_id)
 VALUES ("JavaScript", 65000.00, 306),
